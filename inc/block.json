@@ -1,0 +1,85 @@
+{
+	"apiVersion": "1",
+	"name": "b-blocks/iframe",
+	"title": "iframe",
+	"description": "Embed Iframe in a beautiful way!",
+	"category": "media",
+	"keywords": [
+		"iframe",
+		"website embed",
+		"embed"
+	],
+	"textdomain": "iframe-7",
+	"attributes": {
+		"align": {
+			"type": "string",
+			"default": ""
+		},
+		"cId": {
+			"type": "string",
+			"default": ""
+		},
+		"src": {
+			"type": "string",
+			"default": ""
+		},
+		"title": {
+			"type": "string",
+			"default": "Iframe title"
+		},
+		"width": {
+			"type": "string",
+			"default": "100%"
+		},
+		"height": {
+			"type": "string",
+			"default": "673px"
+		},
+		"loading": {
+			"type": "string",
+			"default": "auto"
+		},
+		"isFullScreen": {
+			"type": "boolean",
+			"default": true
+		},
+		"border": {
+			"type": "object",
+			"default": {
+				"radius": "0px",
+				"width": "0px",
+				"color": "rgba(255, 179, 179, 0.41)"
+			}
+		},
+		"shadow": {
+			"type": "array",
+			"default": [
+				{
+					"hOffset": "0px",
+					"vOffset": "0px",
+					"blur": "0px",
+					"spreed": "0px",
+					"color": " "
+				}
+			]
+		}
+	},
+	"supports": {
+		"align": [
+			"wide",
+			"full"
+		],
+		"html": false
+	},
+	"example": {
+		"attributes": {
+			"preview": true,
+			"columns": {
+				"desktop": 1,
+				"tablet": 1,
+				"mobile": 1
+			}
+		}
+	},
+	"editorScript": "file:../dist/editor.js"
+}

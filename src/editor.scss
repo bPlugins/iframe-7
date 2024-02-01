@@ -1,0 +1,23 @@
+$primaryColor: #4527a4;
+
+.wp-block-b-blocks-iframe {
+	.mouse {
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		z-index: 5;
+	}
+
+	.ifNotice {
+		width: 100%;
+		height: 350px;
+		font-size: 40px;
+		text-transform: capitalize;
+		display: grid;
+		text-align: center;
+		align-items: center;
+		color: black;
+		border: 2px solid #3333;
+		border-radius: 5px;
+	}
+}

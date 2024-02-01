@@ -1,0 +1,33 @@
+$primaryColor: #4527a4;
+
+html {
+	scroll-behavior: smooth;
+}
+
+.wp-block-b-blocks-iframe {
+	* {
+		box-sizing: border-box;
+	}
+
+	.bBlocksIframe {
+		position: relative;
+		overflow: hidden;
+
+		.fullScreenBtn {
+			position: absolute;
+			bottom: 16px;
+			right: 5px;
+			transform: translateX(-50%);
+			padding: 6px 6px 4px 6px;
+			background-color: #d1d4d6;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+	}
+
+	&:fullscreen .bBlocksIframe {
+		height: 100% !important;
+	}
+}
