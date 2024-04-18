@@ -1,9 +1,9 @@
 === Iframe 7 ===
-Contributors: abuhayat, charlescormier
+Contributors: bplugins, abuhayat, charlescormier
 Donate link: https://gum.co/wpdonate/
 Tags: block, iframe, website embed, embed, Gutenberg block
 Requires at least: 6.2+
-Tested up to: 6.4.3.
+Tested up to: 6.5.
 Stable tag: 1.0.0
 Requires PHP: 7.1
 License: GPLv3 or later
@@ -37,7 +37,7 @@ Iframe 7 is a powerful WordPress Gutenberg block plugin that revolutionizes the 
 
 
 = Feedback =
-- Did you like this plugin? Dislike it? Have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
+- Did you like this plugin? Dislike it? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
 
 
 = ⭐ Check out the Parent Plugin of this plugin- =
