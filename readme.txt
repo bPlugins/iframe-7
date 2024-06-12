@@ -3,7 +3,7 @@ Contributors: bplugins, abuhayat, charlescormier
 Donate link: https://gum.co/wpdonate/
 Tags: block, iframe, website embed, embed, Gutenberg block
 Requires at least: 6.2+
-Tested up to: 6.5.
+Tested up to: 6.5.4
 Stable tag: 1.0.0
 Requires PHP: 7.1
 License: GPLv3 or later
@@ -40,24 +40,24 @@ Iframe 7 is a powerful WordPress Gutenberg block plugin that revolutionizes the 
 - Did you like this plugin? Dislike it? Do you have a feature request? [Please share your feedback with us](mailto:support@bplugins.com 'Send feedback')
 
 
-= ⭐ Check out the Parent Plugin of this plugin- =
+### ⭐ Check out the Parent Plugin of this plugin-
 
-🔥 **[b Blocks](https://bblockswp.com)** – Best gutenberg blocks collections for WordPress.
+🔥 **[B Blocks](https://bblockswp.com)** – Best gutenberg blocks collections for WordPress.
 
 
-= ⭐ Check out our other WordPress Plugins- =
+### ⭐ Check out our other WordPress Plugins-
 
-🔥 **[Html5 Audio Player](https://bplugins.com/products/html5-audio-player/)** – Play .mp3, .wav, and .ogg audio files in WordPress.
+🔥 **[Html5 Audio Player](https://bplugins.com/products/html5-audio-player)** – Best audio player plugin for WordPress.
 
-🔥 **[Html5 Video Player](https://bplugins.com/products/html5-video-player/)** – Best video player plugin for WordPress.
+🔥 **[Html5 Video Player](https://bplugins.com/products/html5-video-player)** – Best video player plugin for WordPress.
 
-🔥 **[PDF Poster](https://bplugins.com/products/pdf-poster/)** – A fully-featured PDF Viewer Plugin for WordPress.
+🔥 **[PDF Poster](https://bplugins.com/products/pdf-poster)** – A fully-featured PDF Viewer Plugin for WordPress.
 
-🔥 **[Document Embedder](https://bplugins.com/products/document-embedder/)** – Embed Word, Excel, PowerPoint, Apple Pages, Psd, Pdf and more.
+🔥 **[Document Embedder](https://bplugins.com/products/document-embedder)** – Best WordPress Document Embedder Plugin.
 
-🔥 **[3D Viewer](https://bplugins.com/products/3d-viewer/)** – Display interactive 3D models on the webs.
+🔥 **[3D Viewer](https://bplugins.com/products/3d-viewer)** – Display interactive 3D models on the webs.
 
-🔥 **[Advanced Post Block](https://bplugins.com/products/advanced-post-block/)** – Display your Posts, Custom Post Content and Blogs in a professional way!
+🔥 **[Advanced Post Block](https://bplugins.com/products/advanced-post-block)** – Best Post Display Plugin for WordPress.
 
 
 = ShortCode =
