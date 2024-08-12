@@ -3,7 +3,7 @@ Contributors: bplugins, abuhayat, charlescormier
 Donate link: https://gum.co/wpdonate/
 Tags: block, iframe, website embed, embed, Gutenberg block
 Requires at least: 6.2+
-Tested up to: 6.5.4
+Tested up to: 6.6.1
 Stable tag: 1.0.0
 Requires PHP: 7.1
 License: GPLv3 or later
