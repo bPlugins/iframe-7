@@ -13,7 +13,7 @@
 if ( !defined( 'ABSPATH' ) ) { exit; }
  
 // Constant
-define( 'B_BLOCKS_IF_VERSION', isset( $_SERVER['HTTP_HOST'] ) && 'localhost' === $_SERVER['HTTP_HOST'] ? time() : '1.0.0' );
+define( 'B_BLOCKS_IF_VERSION', isset( $_SERVER['HTTP_HOST'] ) && ( 'localhost' === $_SERVER['HTTP_HOST'] || 'plugins.local' === $_SERVER['HTTP_HOST'] ) ? time() : '1.0.0' );
 define( 'B_BLOCKS_IF_DIR_URL', plugin_dir_url( __FILE__ ) );
 define( 'B_BLOCKS_IF_DIR_PATH', plugin_dir_path( __FILE__ ) );
 
