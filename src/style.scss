@@ -1,33 +1,56 @@
-$primaryColor: #4527a4;
-
-html {
+.wp-block-bifrm-iframe {
 	scroll-behavior: smooth;
-}
 
-.wp-block-b-blocks-iframe {
 	* {
+		scroll-behavior: smooth;
 		box-sizing: border-box;
 	}
 
-	.bBlocksIframe {
+	.bIframe {
+		display: inline-block;
 		position: relative;
 		overflow: hidden;
 
+		iframe {
+			width: 100%;
+			border: none;
+			box-shadow: none;
+		}
+
 		.fullScreenBtn {
+			width: 36px;
+			height: 36px;
 			position: absolute;
 			bottom: 16px;
 			right: 5px;
 			transform: translateX(-50%);
-			padding: 6px 6px 4px 6px;
-			background-color: #d1d4d6;
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
 			color: #fff;
+			background-color: #e7f0fe;
 			border: none;
 			border-radius: 5px;
+			outline: 0;
+			box-shadow: none;
 			cursor: pointer;
+
+			&:hover {
+				transform: translateX(-50%) scale(1.01);
+				border: none;
+				outline: 0;
+				box-shadow: none;
+			}
+
+			svg {
+				width: 28px;
+				height: 28px;
+				fill: #000;
+			}
 		}
 	}
 
-	&:fullscreen .bBlocksIframe {
+	&:fullscreen .bIframe {
 		height: 100% !important;
 	}
 }

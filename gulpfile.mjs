@@ -10,7 +10,7 @@ fsDeploy(gulp, {
     plugin_id: parseInt(process.env.PRODUCT_ID),
     public_key: process.env.PUBLIC_KEY,
     secret_key: process.env.SECRET_KEY,
-    zip_name: 'iframe-7.zip',
+    zip_name: 'iframe.zip',
     zip_path: '',
     add_contributor: false
 });

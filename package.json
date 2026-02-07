@@ -1,5 +1,5 @@
 {
-	"name": "iframe-7",
+	"name": "iframe",
 	"version": "1.0.0",
 	"author": "Wasek Bellah",
 	"license": "ISC",
@@ -11,12 +11,12 @@
 		"format": "wp-scripts format",
 		"start": "wp-scripts start --webpack-copy-php",
 		"build": "wp-scripts build --webpack-copy-php",
-		"i18n-pot": "wp i18n make-pot . languages/iframe-7.pot --exclude=\"src\" && cp ./languages/iframe-7.pot ./languages/iframe-7-en_US.po",
+		"i18n-pot": "wp i18n make-pot . languages/b-iframe.pot --exclude=\"src\" && cp ./languages/b-iframe.pot ./languages/b-iframe-en_US.po",
 		"i18n-json": "wp i18n make-json languages/ --no-purge",
 		"i18n-mo": "wp i18n make-mo languages/",
 		"i18n": "npm run i18n-pot && npm run i18n-json && npm run i18n-mo",
 		"plugin-zip": "wp-scripts plugin-zip",
-		"zip": "zip -r iframe-7.zip build includes languages public vendor index.php plugin.php readme.txt",
+		"zip": "zip -r b-iframe.zip build languages b-iframe.php readme.txt",
 		"bundle": "gulp clean && npm run lint && npm run build && npm run i18n && find . -name '.DS_Store' -delete && npm run zip",
 		"fs-deploy": "gulp freemius-deploy"
 	}

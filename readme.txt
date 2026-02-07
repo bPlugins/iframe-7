@@ -1,7 +1,7 @@
-=== Iframe 7 ===
+=== B Iframe ===
 Contributors: bplugins, abuhayat, charlescormier
 Donate link: https://gum.co/wpdonate/
-Tags: block, iframe, website embed, embed, Gutenberg block
+Tags: block, iframe, website embed, embed, url embed
 Requires at least: 6.5+
 Tested up to: 6.9
 Stable tag: 1.0.0
@@ -9,14 +9,14 @@ Requires PHP: 7.1
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
-Iframe 7 is a powerful WordPress Gutenberg block plugin that revolutionizes the way you embed iframes
+B Iframe is a powerful WordPress Gutenberg block plugin that revolutionizes the way you embed iframes
 
 == Description ==
 
-Iframe 7 is a powerful WordPress Gutenberg block plugin that revolutionizes the way you embed iframes. With features like customizable titles, versatile loading behaviors, full-screen activation, and precise layout controls, Iframe 7 offers an intuitive and dynamic solution for integrating iframes into your content. Elevate the visual appeal of your iframes with additional design options, allowing you to apply borders and shadows effortlessly.
+B Iframe is a powerful WordPress Gutenberg block plugin that revolutionizes the way you embed iframes. With features like customizable titles, versatile loading behaviors, full-screen activation, and precise layout controls, B Iframe offers an intuitive and dynamic solution for integrating iframes into your content. Elevate the visual appeal of your iframes with additional design options, allowing you to apply borders and shadows effortlessly.
 
 
-**[Demos](https://bblockswp.com/demo/iframe-7/)**
+**[Demos](https://bblockswp.com/demo/b-iframe/)**
 
 
 = Features =
@@ -28,7 +28,7 @@ Iframe 7 is a powerful WordPress Gutenberg block plugin that revolutionizes the 
 
 
 = How to use =
-- First, install the Iframe 7 plugin
+- First, install the B Iframe plugin
 - Add the Iframe block from the block category called 'Widgets' in the Gutenberg editor.
 - You can change block settings from the right-side settings sidebar.
 - Enjoy!
@@ -63,7 +63,7 @@ Iframe 7 is a powerful WordPress Gutenberg block plugin that revolutionizes the 
 = ShortCode =
 Use the following ShortCode to Embed Iframe.
 <pre>
-    [iframe src='https://bplugins.com' title='bPlugins Website' width='100%' height='800px' loading='auto' border_width='2px' border_style='solid' border_color='#4527a4' border_radius='8px']
+    [iframe src='https://bplugins.com' title='bPlugins Website' width='100%' height='800px' loading='auto' border_width='2px' border_style='solid' border_color='#146EF5' border_radius='8px']
 </pre>
 
 
@@ -71,25 +71,25 @@ Use the following ShortCode to Embed Iframe.
 
 = From Gutenberg Editor: =
 1. Go to the WordPress Block/Gutenberg Editor
-2. Search For **Iframe 7**
-3. Click on the **Iframe 7** to add the block
+2. Search For **B Iframe**
+3. Click on the **B Iframe** to add the block
 
 = Download & Upload: =
-1. Download the **Iframe 7** plugin (*.zip file*)
+1. Download the **B Iframe** plugin (*.zip file*)
 2. In your admin area, go to the Plugins menu and click on **Add New**
-3. Click on **Upload Plugin** and choose the **`iframe-7.zip`** file and click on **Install Now**
+3. Click on **Upload Plugin** and choose the **`b-iframe.zip`** file and click on **Install Now**
 4. Activate the plugin and Enjoy!
 
 = Manually: =
-1. Download and upload the **Iframe 7** plugin to the **`/wp-content/plugins/`** directory
+1. Download and upload the **B Iframe** plugin to the **`/wp-content/plugins/`** directory
 2. Activate the plugin through the Plugins menu in WordPress
 
 
 == Frequently Asked Questions ==
 
-= Is Iframe 7 free? =
+= Is B Iframe free? =
 
-Yes, Iframe 7 is a free Gutenberg block plugin.
+Yes, B Iframe is a free Gutenberg block plugin.
 
 = Does it work with any WordPress theme? =
 
@@ -105,12 +105,12 @@ You can use unlimited times as you want.
 
 = Where can I get support? =
 
-You can post your questions on the [support forum here](https://wordpress.org/support/plugin/iframe-7/)
+You can post your questions on the [support forum here](https://wordpress.org/support/plugin/b-iframe/)
 
 
 == Screenshots ==
 
-1. Iframe 7
+1. B Iframe
 2. Settings
 
 

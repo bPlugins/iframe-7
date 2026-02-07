@@ -1,0 +1,101 @@
+{
+  "apiVersion": 2,
+  "name": "bifrm/iframe",
+  "title": "iFrame",
+  "description": "Embed website in your page!",
+  "category": "media",
+  "keywords": [
+    "iframe",
+    "website embed",
+    "embed",
+    "embed website",
+    "url",
+    "website view"
+  ],
+  "textdomain": "b-iframe",
+  "attributes": {
+    "align": {
+      "type": "string",
+      "default": ""
+    },
+    "src": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "default": "Iframe title"
+    },
+    "loading": {
+      "type": "string",
+      "default": "auto"
+    },
+    "elements": {
+      "type": "object",
+      "default": {
+        "fullscreen": true
+      }
+    },
+    "layout": {
+      "type": "object",
+      "default": {
+        "alignment": "center"
+      }
+    },
+    "advanced": {
+      "type": "object",
+      "default": {
+        "dimension": {
+          "width": {
+            "desktop": "100%",
+            "width": {
+              "desktop": "100%"
+            }
+          },
+          "height": {
+            "height": {
+              "desktop": "673px"
+            }
+          }
+        },
+        "borderShadow": {
+          "normal": {
+            "border": {
+              "color": "#146ef533",
+              "style": "solid",
+              "width": "1px"
+            },
+            "radius": {
+              "top": "5px",
+              "right": "5px",
+              "bottom": "5px",
+              "left": "5px"
+            }
+          }
+        }
+      }
+    }
+  },
+  "supports": {
+    "align": [
+      "wide",
+      "full"
+    ],
+    "html": false
+  },
+  "example": {
+    "attributes": {
+      "preview": true,
+      "columns": {
+        "desktop": 1,
+        "tablet": 1,
+        "mobile": 1
+      }
+    }
+  },
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./view.css",
+  "render": "file:./render.php",
+  "viewScript": "file:./view.js"
+}
