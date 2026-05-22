@@ -2,8 +2,8 @@
 Contributors: bplugins, abuhayat, charlescormier
 Donate link: https://gum.co/wpdonate/
 Tags: block, iframe, website embed, embed, url embed
-Requires at least: 6.5+
-Tested up to: 6.9
+Requires at least: 6.5
+Tested up to: 7.0
 Stable tag: 1.0.0
 Requires PHP: 7.1
 License: GPLv3 or later
@@ -63,7 +63,7 @@ B Iframe is a powerful WordPress Gutenberg block plugin that revolutionizes the 
 = ShortCode =
 Use the following ShortCode to Embed Iframe.
 <pre>
-    [iframe src='https://bplugins.com' title='bPlugins Website' width='100%' height='800px' loading='auto' border_width='2px' border_style='solid' border_color='#146EF5' border_radius='8px']
+	[iframe src='https://bplugins.com' title='bPlugins Website' width='100%' height='800px' loading='auto' border_width='2px' border_style='solid' border_color='#146EF5' border_radius='8px']
 </pre>
 
 

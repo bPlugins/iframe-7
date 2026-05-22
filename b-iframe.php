@@ -13,7 +13,7 @@
 if ( !defined( 'ABSPATH' ) ) { exit; }
  
 // Constant
-define( 'BIFRM_VERSION', isset( $_SERVER['HTTP_HOST'] ) && ( 'localhost' === $_SERVER['HTTP_HOST'] || 'plugins.local' === $_SERVER['HTTP_HOST'] ) ? time() : '1.0.0' );
+define( 'BIFRM_VERSION', ( defined( 'WP_DEBUG' ) && WP_DEBUG ) ? time() : '1.0.0' );
 define( 'BIFRM_DIR_URL', plugin_dir_url( __FILE__ ) );
 define( 'BIFRM_DIR_PATH', plugin_dir_path( __FILE__ ) );
 
