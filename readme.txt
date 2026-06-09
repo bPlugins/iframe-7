@@ -5,7 +5,7 @@ Tags: block, iframe, website embed, embed, url embed
 Requires at least: 6.5
 Tested up to: 7.0
 Stable tag: 1.0.0
-Requires PHP: 7.1
+Requires PHP: 7.4
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
