@@ -15,10 +15,6 @@ B Iframe is a powerful WordPress Gutenberg block plugin that revolutionizes the 
 
 B Iframe is a powerful WordPress Gutenberg block plugin that revolutionizes the way you embed iframes. With features like customizable titles, versatile loading behaviors, full-screen activation, and precise layout controls, B Iframe offers an intuitive and dynamic solution for integrating iframes into your content. Elevate the visual appeal of your iframes with additional design options, allowing you to apply borders and shadows effortlessly.
 
-
-**[Demos](https://bblockswp.com/demo/b-iframe/)**
-
-
 = Features =
 - **Title**: Specify the title for the iframe.
 - **Loading Behavior**: Configure the loading behavior.
@@ -124,3 +120,14 @@ You can post your questions on the [support forum here](https://wordpress.org/su
 
 You can find the source code, report bugs, and contribute to the development of this plugin on our GitHub repository:
 [**B Iframe on GitHub**](https://github.com/bPlugins/iframe-7)
+
+
+== Third-Party Libraries ==
+
+This plugin bundles the following third-party JavaScript/PHP libraries.
+
+= bpl-tools =
+* Source / GitHub: https://github.com/bPlugins/bpl-tools
+* License: GPL-2.0-or-later – https://www.gnu.org/licenses/gpl-2.0.html
+* Purpose: Shared utility library providing admin dashboard components and common Gutenberg editor controls.
+* External Services: The library may connect to bPlugins, WordPress.org, and Freemius services for product data and checkout functionality. See full details: https://github.com/bPlugins/bpl-tools#external-requests--why-they-are-made

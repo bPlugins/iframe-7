@@ -3,7 +3,8 @@ import { InspectorControls } from '@wordpress/block-editor';
 import { PanelBody, TabPanel, TextControl, ToggleControl, SelectControl } from '@wordpress/components';
 
 import { BtnGroup } from '../../../../../bpl-tools/Components';
-import Advanced from '../../../../../bpl-tools/Advanced';
+import Dimension from '../../../../../bpl-tools/Components/Dimension/Dimension';
+import BorderShadow from '../../../../../bpl-tools/Advanced/BorderShadow';
 import { updateData } from '../../../../../bpl-tools/utils/functions';
 
 import { alignments, loadTypes } from '../../../utils/options';
@@ -42,7 +43,9 @@ const Settings = ({ attributes, setAttributes }) => {
 
 
 				{tab.name === 'style' && <>
-					<Advanced advanced={advanced} onChange={val => setAttributes({ advanced: val })} enabled={{ dimension: ['width', 'height'], borderShadow: ['normal', 'hover', 'border', 'shadow'] }} />
+					<Dimension dimension={advanced?.dimension} onChange={val => setAttributes({ advanced: updateData(advanced, val, 'dimension') })} enabled={['width', 'height']} />
+
+					<BorderShadow borderShadow={advanced?.borderShadow} onChange={val => setAttributes({ advanced: updateData(advanced, val, 'borderShadow') })} enabled={['normal', 'hover', 'border', 'shadow']} />
 				</>}
 			</>}
 		</TabPanel>
